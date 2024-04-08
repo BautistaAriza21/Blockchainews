@@ -1,0 +1,51 @@
+.carrusel-contents {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 300px;
+  overflow: hidden;
+}
+      
+@media (min-width: 280px) {
+  .carrusel-contents {
+    height: 500px;
+  }
+
+} 
+
+
+.item-carrusel {
+height: 100%;
+position: relative;
+}
+
+.card-carrusel {
+  height: 100%;
+}
+
+
+.arrows {
+  font-size: 25px; 
+  height: 330px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: -10px auto;
+  
+}
+  
+
+
+i {
+  color: #0D47A1;
+}
+
+a {
+  text-decoration: none;
+}
+
